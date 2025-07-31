@@ -1,0 +1,8 @@
+a= int(input("Enter 1 st no "))
+b= int(input("Enter 2nd no "))
+c = a & b
+print("Res : "+str(c))
+d = a | b
+print("Res : "+str(d))
+e = a ^ b
+print("Res : "+str(e))
