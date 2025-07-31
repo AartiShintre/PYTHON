@@ -1,0 +1,30 @@
+str = "DKTE"
+print("M" not in str)
+print("D" in str)
+
+str1 ="Ichalkaranji"
+for i in str1:
+  print(i,end="")
+
+str2 = "Arti"
+rs = str2[::-1]
+print(rs)
+
+Str4 = "aarya"
+print(Str4.capitalize())
+print(Str4.upper())
+print(Str4.lower())
+print(Str4.casefold())
+print(Str4.count("a"))
+print(Str4.startswith("A"))
+print(Str4.endswith("a"))
+print(Str4.find("a"))
+print(Str4.index("a"))
+print(Str4.isalnum())
+print(Str4.replace("a","A"))
+print(Str4.split())
+print(Str4.swapcase())
+print(Str4.title())
+
+str5 = "table"
+print(str5[0]+str5[len(str5)//2]+str5[-1])
