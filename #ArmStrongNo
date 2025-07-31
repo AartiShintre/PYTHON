@@ -1,0 +1,11 @@
+n = 371
+temp = n
+sum = 0;
+while(n != 0):
+  n1 = n % 10
+  sum =sum + n1*n1*n1
+  n = n // 10;
+if(sum == temp):
+  print("is a armstrom no")
+else:
+   print("is not armstrom no")
