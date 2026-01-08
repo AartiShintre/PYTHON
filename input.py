@@ -1,0 +1,10 @@
+name =(input("Enter your name"))
+print("My name is :",name)
+age = int(input("Enter your age"))
+print("My age is :",age)
+
+a = int(input("Enter a no"))
+b = float(input("Enter other no"))
+c = int(input("Enter third no"))
+print("Sum is :",a + b)
+print("Average is :", (a + b + c)/3)
